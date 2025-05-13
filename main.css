@@ -1,0 +1,262 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%, 1);
+    overflow-x: hidden;
+}
+
+header{
+    width: 1110px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+
+.buttonOne {
+    width: 43px;
+    height: 31px;
+    padding: 8px, 9px, 8px, 9px;
+    gap: 4px;
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    border: none;
+}
+
+.show {
+    font-family: Montserrat;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.down__row {
+    width: 8px;
+    height: 8px;
+    color: grey;
+}
+
+.entries {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    padding-right: 23px;
+    padding-left: 13px;
+}
+
+.inp { 
+    gap: 8px;
+    border: 1px solid #9E9E9E;
+    border-radius: 8px;
+    padding: 8px,9px,8px,9px;
+}
+
+.searchDiv {
+    display: inline-flex;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    width: 176px;
+    height: 32px;
+    color: #9E9E9E;
+    border: 1px solid #9E9E9E;
+    border-radius: 8px;
+    gap: 8px;
+    padding: 8px,9px,8px,9px;
+    align-items: center;
+}
+
+.search-icon {
+    width: 12,6px;
+    height: 12.6px;
+    padding-left: 2px;
+}
+
+.addButton {
+    width: 139px;
+    height: 32px;
+    background-color: #624DE3;
+    border-radius: 8px;
+    padding: 8px,12px,8px,12px;
+    gap: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transform: translateX(80px);
+}
+
+.plus {
+    width: 13px;
+    height: 13px;
+   padding-left: 7px;
+   
+}
+
+.but_spanTwo {
+    width: 91px;
+    height: 15px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+table {
+    width: 1110px;
+    height: 689px;
+}
+
+th{
+    display: flex;
+    width: 120px;
+    color:hsla(0, 0%, 0%, 1);
+    font-family:Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 16px;
+    margin-left: 16px;
+    justify-content: space-between;
+  }
+
+  .tracking {
+    transform: translateX(-14px);
+  }
+
+  tr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 64px;
+    flex-grow: 1;
+  }
+
+  td{
+    width: 120px;
+    height: 61px;
+    color:#000;
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+ .status {
+    width: 120.5px;
+    height: 31px;
+   
+ }
+
+.status .delivered {
+    width: 83px;
+    height: 31px;
+    color: #1F9254;
+    background-color: #EBF9F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+ }
+
+.status .process {
+    width: 71px;
+    height: 31px;
+    background-color: #FEF2E5;
+    color: #CD6200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+ }
+
+  .status .canceled {
+    width: 83px;
+    height: 31px;
+    background-color: #FBE7E8;
+    color: #A30D11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+ }
+
+ .icon-span {
+    width: 80.75px;
+    height: 17px;
+ }
+
+ .icon-img {
+    width: 32px;
+    height: 32px;
+ }
+
+  .table-list {
+    
+        background-color: hsla(248, 80%, 98%, 1);
+        width: 100%;
+      
+  }
+
+  .delButton {
+    width: 64px;
+    height: 24px;
+    gap: 16px;
+  }
+
+  footer {
+    width: 1110px;
+    height: 689px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 223px;
+    height: 31px;
+  }
+
+.previous {
+    width: 53px;
+    height: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    color: #9E9E9E;
+}
+
+.footer button {
+    width: 31px;
+    height: 31px;
+    border-radius: 8px;
+    padding: 8px,9px,8px,9px;
+    gap: 4px;
+    background-color: #E0E0E0;
+    color: #000000;
+    border: none;
+}
+
+footer .buttonOne {
+    background-color: #624DE3;
+    color: #FFFFFF;
+}
+
+footer .next {
+    width: 29px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
