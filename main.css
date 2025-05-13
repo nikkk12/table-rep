@@ -15,8 +15,7 @@ header{
 
 
 .buttonOne {
-    width: 43px;
-    height: 31px;
+    height: 31px; 
     padding: 8px, 9px, 8px, 9px;
     gap: 4px;
     background-color: #E0E0E0;
@@ -76,7 +75,7 @@ header{
 }
 
 .addButton {
-    width: 139px;
+    /* width: 139px; */
     height: 32px;
     background-color: #624DE3;
     border-radius: 8px;
